@@ -8,6 +8,8 @@ var Operator;
 var Calculator = /** @class */ (function () {
     function Calculator() {
         // linear method or arrow function
+        // arrow function has property state and  behaviour method
+        // arrow function is called lambda syntax
         this.sum = function (a, b) {
             return a + b;
         };
