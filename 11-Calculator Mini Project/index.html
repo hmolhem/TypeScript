@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <form >
+
+            <label >Input First Number: </label>
+            <div></div>
+            <input type="number" id="first" value="">
+
+            <div class="seprator"></div>
+
+            <label >Input First Number: </label>
+            <div></div>
+            <input type="number" id="second" size="50">
+
+            <div class="seprator"></div>
+            
+            <label >Choose a operator:</label>
+            <select id="operator">
+                <option value="1">Sum</option>
+                <option value="2">Minus</option>
+                <option value="3">Cross</option>
+                <option value="4">Divide</option>
+            </select>
+
+            <div class="seprator"></div>
+
+            <label >Result of compute: </label>
+            <input type="text" id="result" disabled value="" >
+
+            <div class="seprator"></div>
+
+            <input type="button" value="Compute" id="compute" onclick="displayResult()">
+        </form>
+    </div>
+
+    <!-- <script src="./main.js"></script> -->
+    <script src="./app.js"></script>
+  </body>
+</html>
