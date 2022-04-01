@@ -1,0 +1,11 @@
+.box{
+    height: 100vh;   
+}
+.table-box{
+    max-height: 70vh;
+;
+}
+table tr>td,table tr>th{
+    min-width: 120px;
+    text-align: center;
+}
